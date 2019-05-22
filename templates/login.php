@@ -1,12 +1,28 @@
 
 <?php echo $message; ?>
-
+</br>
 <form name="frmLogin" action="authenticate.php" method="post">
-   Student ID:
+  <table align="center" class="table2">
+
+    <tr>
+      <td>Student ID:</td>
+      <td>
    <input name="txtid" type="text" />
-   <br/>
-   Password:
+ </td>
+</tr>
+
+   <tr>
+     <td>Password:</td>
+     <td>
    <input name="txtpwd" type="password" />
-   <br/>
+ </td>
+</tr>
+
+   <tr>
+     <td></td>
+     <td>
    <input type="submit" value="Login" name="btnlogin" />
+ </td>
+ </tr>
+</table>
 </form>

@@ -1,9 +1,12 @@
 
-<div id="main-nav">
+<nav>
+  <ul>
+   <li><a href="modules.php">My Modules</a></li>
+   <li><a href="students.php">Students</a></li>
+   <li><a href="addstudent.php">Add Students</a></li>
+   <li><a href="assignmodule.php">Assign Module</a></li>
+   <li><a href="details.php">My Details</a></li>
+   <li><a href="logout.php">Logout</a></li>
+ </ul>
 
-   <a href="modules.php">My Modules</a> |
-   <a href="assignmodule.php">Assign Module</a> |
-   <a href="details.php">My Details</a> |
-   <a href="logout.php">Logout</a>
-
-</div>
+</nav>

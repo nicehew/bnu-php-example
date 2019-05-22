@@ -1,0 +1,99 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+	position: center;
+	height: 100%;
+}
+
+nav{
+    height: 45px;
+    padding-bottom: 20px;
+}
+
+ul{
+    float: center;
+    margin-right: 10px;
+    margin-top: 10px;
+	text-align: center;
+	margin-left: 0;
+	padding-left: 0;
+
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+	font-weight: bold;
+	font-family: Sans-Serif;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+logo{
+    float: left;
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+
+	background-color:rgba(255, 255, 255, 0.3);
+    padding: 25px;
+    font-size: 35px;
+	font-family: Sans-Serif;
+    position: absolute;
+    width: 900px;
+	color: black;
+	margin-top: 0px;
+}
+
+h2{
+    color: black;
+    padding: 1px;
+    font-size: 20px;
+	font-family: Sans-Serif;
+    position: static;
+
+}
+
+table.table2{
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 350px;
+  border-collapse:
+  collapse; border-spacing: 0;
+}
+
+table.table1 {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 1000px;
+    border-collapse:
+    collapse; border-spacing: 0;
+}
+
+td, th {
+    border: 1px solid transparent;
+    height: 30px;
+    transition: all 0.3s;
+}
+
+th {
+    background: #DFDFDF;
+    font-weight: bold;
+}
+
+td {
+    background: #FAFAFA;
+    text-align: center;
+}
